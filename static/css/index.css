@@ -1,0 +1,8 @@
+div{
+    margin-bottom: 10px;
+}
+
+input[type='submit'],input[type='file']{
+    cursor: pointer;
+}
+

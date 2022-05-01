@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="#"></link>
+    <link rel="stylesheet"  type= "text/css" href="/static/css/index.css?v=2.1">
+    <title>圖文管理系統</title>
+</head>
+<body>
+
+<h2>發表一篇圖文</h2>
+
+<form id="form" enctype=multipart/form-data>
+
+    <div>文字內容<input  type="text" name="message" id='message'/></div>
+    <div>圖片檔案<input type="file"  name="picture"  id='picture' accept="image/*"/></div>
+    <div><input type='submit' value="送出" id='send'/></div>
+</form>
+
+
+
+<img id ='load' img src="static/img/loading.gif" style="display: block; width: 40px; height: 40px;"/>
+
+<div id="content"></div>
+
+
+
+
+<script type="text/javascript" src="/static/js/index.js"></script>
+</body>
+</html>
